@@ -5,22 +5,25 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch=".."
-           review="review.cyanogenmod.org" />
+           fetch="https://github.com/"
+           review="server.cas-online.nl:8181" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/heads/ics"
+  <remote  name="erikcas"
+           fetch="http://gitlab.cas-online.nl/" />
+
+  <default revision="ics"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build">
+  <project path="build" name="erikcas/android_build" remote="github" revision="ics-plus">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="bionic" name="CyanogenMod/android_bionic" />
+<!--  <project path="bionic" name="CyanogenMod/android_bionic" />-->
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
@@ -149,7 +152,7 @@
   <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" />
   <project path="external/v8" name="CyanogenMod/android_external_v8" />
   <project path="external/valgrind" name="CyanogenMod/android_external_valgrind" />
-  <project path="external/webkit" name="CyanogenMod/android_external_webkit" />
+<!--  <project path="external/webkit" name="CyanogenMod/android_external_webkit" />-->
   <project path="external/webp" name="CyanogenMod/android_external_webp" />
   <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" />
   <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" />
@@ -160,12 +163,12 @@
   <project path="external/vim" name="CyanogenMod/android_external_vim" revision="master" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+<!-- <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" /> -->
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" />
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
-  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="frameworks/media/libvideoeditor" name="CyanogenMod/android_frameworks_media_libvideoeditor" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -178,8 +181,8 @@
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
-  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
+<!--  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />-->
+<!--  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" /> -->
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
@@ -190,7 +193,7 @@
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
-  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
+<!--  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />-->
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
@@ -199,7 +202,7 @@
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
-  <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
+<!--  <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" /> -->
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
@@ -211,7 +214,7 @@
   <project path="packages/apps/GanOptimizer" name="CyanogenMod/android_packages_apps_GanOptimizer" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
+<!--  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />-->
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
@@ -220,15 +223,15 @@
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
+<!-- <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" /> -->
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" />
+<!--  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" />-->
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
-  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
+<!-- <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" /> -->
   <project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
@@ -254,7 +257,7 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+<!--  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" /> -->
   <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="CyanogenMod/android_vendor_qcom_opensource_kernel-tests_mm-audio" />
   <project path="vendor/qcom/opensource/omx/mm-audio" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-audio" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-core" />
@@ -266,12 +269,42 @@
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
-  <project path="system/core" name="CyanogenMod/android_system_core" />
+<!--  <project path="system/core" name="CyanogenMod/android_system_core" />-->
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" />
-  <project path="system/su" name="CyanogenMod/android_system_su" />
+<!--  <project path="system/netd" name="CyanogenMod/android_system_netd" />-->
+<!--  <project path="system/su" name="CyanogenMod/android_system_su" />-->
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
+  <!-- START: androidarmv6 repos -->
+  <project path="android" name="androidarmv6/android" remote="github" revision="ics-plus" />
+  <project path="hardware/msm7k" name="androidarmv6/android_hardware_msm7k" remote="github" revision="ics-plus" />
+  <project path="packages/apps/CMFileManager" name="androidarmv6/android_packages_apps_CMFileManager" remote="github" revision="ics-plus" />
+  <project path="packages/apps/HwaSettings" name="mirror-androidarmv6/android_packages_apps_HwaSettings" remote="github" revision="ics-plus" />
+  <project path="packages/apps/Settings" name="androidarmv6/android_packages_apps_Settings" remote="github" revision="ics-plus" />
+  <project path="packages/apps/Trebuchet" name="androidarmv6/android_packages_apps_Trebuchet" remote="github" revision="ics-plus" />
+  <project path="vendor/cm" name="erikcas/android_vendor_cm" remote="github" revision="ics-plus" />
+  <project path="vendor/google" name="mirror-androidarmv6/android_vendor_google" remote="github" revision="ics-plus" />
+  <project path="vendor/samsung" name="erikcas/android_vendor_samsung" remote="github" revision="ics-plus" />
+  <!-- END: androidarmv6 repos -->
 
-  <project path="android" name="CyanogenMod/android" />
+<!-- Samsungs from erikcas -->
+  <project path="bionic" name="erikcas/android_bionic" remote="github" revision="ics-plus" />
+  <project path="frameworks/base" name="erikcas/android_frameworks_base" remote="github" revision="ics-plus" />
+  <project path="external/webkit" name="erikcas/android_external_webkit" remote="github" revision="ics-plus" />
+  <project path="hardware/libhardware_legacy" name="erikcas/android_hardware_libhardware_legacy" remote="github" revision="ics-plus" />
+  <project path="system/netd" name="erikcas/android_system_netd" remote="github" revision="ics-plus" />
+  <project path="device/samsung/gio" name="erikcas/android_device_samsung_gio-old" remote="github" revision="ics-plus" />
+<!--  <project path="device/samsung/beni" name="erikcas/android_device_samsung_beni" remote="github" revision="ics-plus" />-->
+  <project path="device/samsung/tass" name="erikcas/android_device_samsung_tass" remote="github" revision="ics-plus" />
+  <project path="device/samsung/cooper" name="erikcas/android_device_samsung_cooper" remote="github" revision="ics-plus" />
+  <project path="device/samsung/msm7x27-common" name="erikcas/android_device_samsung_msm7x27-common" remote="github" revision="ics-plus" />
+  <project path="kernel/samsung/msm7x27" name="erikcas/android_gio_stock_kernel" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/Apollo" name="erikcas/android_packages_apps_Apollo" remote="github" revision="ics-plus" />
+  <project path="packages/apps/Mms" name="erikcas/android_packages_apps_Mms" remote="github" revision="ics-plus" />
+  <project path="packages/apps/Superuser" name="erikcas/android_packages_apps_Superuser" remote="github" revision="ics-plus" />
+  <project path="system/core" name="erikcas/android_system_core" remote="github" revision="ics-plus" />
+  <project path="system/su" name="erikcas/android_system_su" remote="github" revision="ics-plus" />
+
+<!-- Extra Extra! Read all about it -->
+  <project path="packages/apps/Effem" name="GenetICS/packages_apps_Effem" remote="github" revision="master" />
 </manifest>
