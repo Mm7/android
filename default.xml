@@ -8,6 +8,10 @@
            fetch="https://github.com/"
            review="server.cas-online.nl:8181" />
 
+  <remote  name="gitpoep"
+           fetch=".."
+           review="server.cas-online.nl:8181" />
+           
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -15,7 +19,7 @@
            fetch="http://gitlab.cas-online.nl/" />
 
   <default revision="ics"
-           remote="github"
+           remote="gitpoep"
            sync-c="true"
            sync-j="4" />
 
