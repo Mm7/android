@@ -162,7 +162,7 @@
   <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" />
   <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" />
   <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" />
-  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" />
+  <project path="external/wpa_supplicant_8" name="erikcas/android_external_wpa_supplicant_8" revision="ics-plus" />
   <project path="external/xmlwriter" name="CyanogenMod/android_external_xmlwriter" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" revision="master" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
@@ -296,12 +296,13 @@
   <project path="frameworks/base" name="erikcas/android_frameworks_base" remote="github" revision="ics-plus" />
   <project path="external/webkit" name="erikcas/android_external_webkit" remote="github" revision="ics-plus" />
   <project path="hardware/libhardware_legacy" name="erikcas/android_hardware_libhardware_legacy" remote="github" revision="ics-plus" />
+  <project path="hardware/atheros/ath6kl-compat" name="erikcas/android_hardware_atheros_ath6kl-compat" remote="github" revision="ics-plus" />
   <project path="system/netd" name="erikcas/android_system_netd" remote="github" revision="ics-plus" />
-  <project path="device/samsung/gio" name="erikcas/android_device_samsung_gio-old" remote="github" revision="ics-plus" />
+  <project path="device/samsung/gio" name="erikcas/android_device_samsung_gio-old" remote="github" revision="ics-test" />
 <!--  <project path="device/samsung/beni" name="erikcas/android_device_samsung_beni" remote="github" revision="ics-plus" />-->
   <project path="device/samsung/tass" name="erikcas/android_device_samsung_tass" remote="github" revision="ics-plus" />
   <project path="device/samsung/cooper" name="erikcas/android_device_samsung_cooper" remote="github" revision="ics-plus" />
-  <project path="device/samsung/msm7x27-common" name="erikcas/android_device_samsung_msm7x27-common" remote="github" revision="ics-plus" />
+  <project path="device/samsung/msm7x27-common" name="erikcas/android_device_samsung_msm7x27-common" remote="github" revision="ics-test" />
   <project path="kernel/samsung/msm7x27" name="erikcas/android_gio_stock_kernel" remote="github" revision="cm-10.1" />
   <project path="packages/apps/Apollo" name="erikcas/android_packages_apps_Apollo" remote="github" revision="ics-plus" />
   <project path="packages/apps/Mms" name="erikcas/android_packages_apps_Mms" remote="github" revision="ics-plus" />
