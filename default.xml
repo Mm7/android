@@ -296,7 +296,7 @@
   <project path="frameworks/base" name="erikcas/android_frameworks_base" remote="github" revision="ics-plus" />
   <project path="external/webkit" name="erikcas/android_external_webkit" remote="github" revision="ics-plus" />
   <project path="hardware/libhardware_legacy" name="erikcas/android_hardware_libhardware_legacy" remote="github" revision="ics-plus" />
-  <project path="hardware/atheros/ath6kl-compat" name="erikcas/android_hardware_atheros_ath6kl-compat" remote="github" revision="ics-plus" />
+  <project path="hardware/atheros/ath6kl-compat" name="erikcas/android_hardware_atheros_ath6kl-compat" remote="github" revision="cm-10.1" />
   <project path="system/netd" name="erikcas/android_system_netd" remote="github" revision="ics-plus" />
   <project path="device/samsung/gio" name="erikcas/android_device_samsung_gio-old" remote="github" revision="ics-test" />
 <!--  <project path="device/samsung/beni" name="erikcas/android_device_samsung_beni" remote="github" revision="ics-plus" />-->
