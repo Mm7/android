@@ -298,7 +298,7 @@
   <project path="hardware/libhardware_legacy" name="erikcas/android_hardware_libhardware_legacy" remote="github" revision="ics-plus" />
   <project path="system/netd" name="erikcas/android_system_netd" remote="github" revision="ics-plus" />
   <project path="device/samsung/gio" name="erikcas/android_device_samsung_gio-old" remote="github" revision="ics-plus" />
-<!--  <project path="device/samsung/beni" name="erikcas/android_device_samsung_beni" remote="github" revision="ics-plus" />-->
+  <project path="device/samsung/beni" name="erikcas/android_device_samsung_beni" remote="github" revision="ics-plus" />
   <project path="device/samsung/tass" name="erikcas/android_device_samsung_tass" remote="github" revision="ics-plus" />
   <project path="device/samsung/cooper" name="erikcas/android_device_samsung_cooper" remote="github" revision="ics-plus" />
   <project path="device/samsung/msm7x27-common" name="erikcas/android_device_samsung_msm7x27-common" remote="github" revision="ics-plus" />
