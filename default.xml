@@ -370,7 +370,7 @@
   <project path="vendor/htc/vigor" name="android_vendor_htc_vigor" remote="ls" revision="jb2" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-10.1" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="cm-10.1" />
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="jb2" />
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="al" revision="jb2" />
   <project path="vendor/lge" name="android_vendor_lge" remote="ls" revision="jb2" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-10.1" />
   <project path="vendor/motorola/msm8960-common" name="android_vendor_motorola_msm8960-common" remote="rz" revision="cm-10.1" />
