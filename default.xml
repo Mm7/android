@@ -283,24 +283,24 @@
   <project path="packages/apps/Bluetooth2" name="android-legacy/android_packages_apps_Bluetooth2" remote="gh" revision="cm-10.1" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Camera" name="androidarmv6/android_packages_apps_Camera" remote="gh" revision="cm-10.1" />
+  <project path="packages/apps/Camera" name="androidarmv6/android_packages_apps_Camera" remote="al" revision="jb2" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/DashClock" name="scotthartbti/android_packages_apps_DashClock" remote="gh" revision="jb42" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="al" revision="jb2" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/FM2" name="android-legacy/android_packages_apps_FM2" remote="gh" revision="jellybean" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="al" revision="jb2" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="al" revision="jb2" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="ls" revision="jb2" />
-  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="ls" revision="jb2" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ls" revision="jb2" />
@@ -313,9 +313,9 @@
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="cm" revision="cm-10.1" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="ls" revision="jb2" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="cm" revision="cm-10.1" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="al" revision="jb2" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cm" revision="cm-10.1" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="al" revision="jb2" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="cm" revision="cm-10.1" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
