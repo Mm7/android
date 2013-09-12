@@ -279,7 +279,8 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Bluetooth" name="androidarmv6/android_packages_apps_Bluetooth" remote="gh" revision="cm-10.1" />
+  <project path="packages/apps/Bluetooth_msm" name="androidarmv6/android_packages_apps_Bluetooth_msm" remote="gh" revision="cm-10.1" />
   <project path="packages/apps/Bluetooth2" name="android-legacy/android_packages_apps_Bluetooth2" remote="gh" revision="cm-10.1" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-10.1" />
