@@ -288,7 +288,7 @@
   <project path="packages/apps/Trebuchet" name="androidarmv6/android_packages_apps_Trebuchet" remote="github" revision="ics-plus" />
   <project path="vendor/cm" name="erikcas/android_vendor_cm" remote="github" revision="ics-plus" />
   <project path="vendor/google" name="mirror-androidarmv6/android_vendor_google" remote="github" revision="ics-plus" />
-  <project path="vendor/samsung" name="erikcas/android_vendor_samsung" remote="github" revision="ics-plus" />
+  <project path="vendor/samsung" name="Mm7/android_vendor_samsung" remote="github" revision="ics-plus" />
   <!-- END: androidarmv6 repos -->
 
 <!-- Samsungs from erikcas -->
@@ -299,8 +299,8 @@
   <project path="device/samsung/gio" name="erikcas/android_device_samsung_gio-old" remote="github" revision="ics-plus" />
   <project path="device/samsung/beni" name="erikcas/android_device_samsung_beni" remote="github" revision="ics-plus" />
   <project path="device/samsung/tass" name="erikcas/android_device_samsung_tass" remote="github" revision="ics-plus" />
-  <project path="device/samsung/cooper" name="erikcas/android_device_samsung_cooper" remote="github" revision="ics-plus" />
-  <project path="device/samsung/msm7x27-common" name="erikcas/android_device_samsung_msm7x27-common" remote="github" revision="ics-plus" />
+  <project path="device/samsung/cooper" name="Mm7/android_device_samsung_cooper" remote="github" revision="ics-plus" />
+  <project path="device/samsung/msm7x27-common" name="Mm7/android_device_samsung_msm7x27-common" remote="github" revision="ics-plus" />
   <project path="kernel/samsung/msm7x27" name="erikcas/android_gio_stock_kernel" remote="github" revision="cm-10.1" />
   <project path="packages/apps/Apollo" name="erikcas/android_packages_apps_Apollo" remote="github" revision="ics-plus" />
   <project path="packages/apps/Mms" name="erikcas/android_packages_apps_Mms" remote="github" revision="ics-plus" />
