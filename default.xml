@@ -280,7 +280,7 @@
 <!--  <project path="system/su" name="CyanogenMod/android_system_su" />-->
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <!-- START: androidarmv6 repos -->
-  <project path="android" name="androidarmv6/android" remote="github" revision="ics-plus" />
+  <project path="android" name="Mm7/android" remote="github" revision="ics-plus" />
   <project path="hardware/msm7k" name="androidarmv6/android_hardware_msm7k" remote="github" revision="ics-plus" />
   <project path="packages/apps/CMFileManager" name="androidarmv6/android_packages_apps_CMFileManager" remote="github" revision="ics-plus" />
   <project path="packages/apps/HwaSettings" name="mirror-androidarmv6/android_packages_apps_HwaSettings" remote="github" revision="ics-plus" />
