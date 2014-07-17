@@ -297,9 +297,9 @@
   <project path="external/webkit" name="erikcas/android_external_webkit" remote="github" revision="ics-plus" />
   <project path="hardware/libhardware_legacy" name="erikcas/android_hardware_libhardware_legacy" remote="github" revision="ics-plus" />
   <project path="system/netd" name="erikcas/android_system_netd" remote="github" revision="ics-plus" />
-  <project path="device/samsung/gio" name="erikcas/android_device_samsung_gio-old" remote="github" revision="ics-plus" />
-  <project path="device/samsung/beni" name="erikcas/android_device_samsung_beni" remote="github" revision="ics-plus" />
-  <project path="device/samsung/tass" name="erikcas/android_device_samsung_tass" remote="github" revision="ics-plus" />
+  <project path="device/samsung/gio" name="Mm7/android_device_samsung_gio-old" remote="github" revision="ics-plus" />
+  <project path="device/samsung/beni" name="Mm7/android_device_samsung_beni" remote="github" revision="ics-plus" />
+  <project path="device/samsung/tass" name="Mm7/android_device_samsung_tass" remote="github" revision="ics-plus" />
   <project path="device/samsung/cooper" name="Mm7/android_device_samsung_cooper" remote="github" revision="ics-plus" />
   <project path="device/samsung/msm7x27-common" name="Mm7/android_device_samsung_msm7x27-common" remote="github" revision="ics-plus" />
   <project path="kernel/samsung/msm7x27" name="erikcas/android_gio_stock_kernel" remote="github" revision="cm-10.1" />
