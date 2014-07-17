@@ -289,6 +289,7 @@
   <project path="vendor/cm" name="erikcas/android_vendor_cm" remote="github" revision="ics-plus" />
   <project path="vendor/google" name="mirror-androidarmv6/android_vendor_google" remote="github" revision="ics-plus" />
   <project path="vendor/samsung" name="Mm7/android_vendor_samsung" remote="github" revision="ics-plus" />
+  <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" remote="github" revision="cm-11.0" />
   <!-- END: androidarmv6 repos -->
 
 <!-- Samsungs from erikcas -->
